@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fábrica de estrelas</title>
+  <style>
+      img {
+      height: 300px;
+      width: 300px;
+      float: left;
+      margin-right: 5%;
+    }
+    h1 {
+      border-bottom-style: inset;
+    }
+    input#btVerificar {
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <img src="estrelas.png" alt="Estrelas">
+  <h1>Fábrica de estrelas</h1>
+  <p>Número de símbolos
+    <input type="text" id="inNumero">
+  </p>
+  <input type="button" value="Preencher espaços" id="btPreencher">
+  <h3 id="outEspacos"></h3>
+  <script src="script.js"></script>  
+</body>
+</html>
